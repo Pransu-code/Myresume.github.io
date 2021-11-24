@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/bg-1.jpg);
+    background-position: center;
+    background-size: cover;
+ 
+
+}
+
+nav{
+    display: flex;
+    padding: 1% 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name{
+    padding: 2% 4%;
+    text-align: left;
+    background-color: #313c4e;
+    font-size:25px;
+    
+    
+}
+.description{
+    padding: 0% 4%;
+    text-align: left;
+    background-color: #313c4e;
+    
+}
+
+
+.contact{
+    padding-left: 23px;
+    text-align: left;
+    background-color: #222a33;
+
+}
+
+.Education{
+    
+    padding-left: 45px;
+    padding: 2% 6%;
+    text-align: left;
+    font-size: 18px;
+   
+}
+.experience{
+    padding: 0% 4%;
+    text-align: left;
+   
+}
+.Tskills{
+    padding: 3% 4%;
+    text-align: left;
+}
+.Tskills li{
+    padding: 1px 1px;
+    position: relative;
+}
+
+.Sskills{
+    padding: 1% 4%;
+    text-align: left;
+
+}
+.Language{
+    padding: 1% 4%;
+    text-align: left;
+}
+.achievements{
+    padding: 0.5% 1%;
+    text-align: left;
+   
+}
+
+.INTERESTS{
+    padding: 1% 4%;
+    text-align: left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
